@@ -1,4 +1,4 @@
-# loviel-1.0
+# loviel-1.1
 ## Versão responsiva
 
 Esse projeto tem como objetivo aperfeiçoar o projeto LOVIEL.
