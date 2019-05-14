@@ -174,27 +174,27 @@
         </div>
         <div class="row justify-content-center mb-5">
             <div class="col-sm-12 col-md-10 col-lg-8">
-                <form>
+                <form action="/processa-dados" method="post">
                     <div class="form-row">
                         <div class="form-group col-sm-6">
                             <label for="inputNome">Nome:</label>
-                            <input type="text" class="form-control" id="inputNome" placeholder="Nome">
+                            <input type="text" class="form-control" id="inputNome" placeholder="Nome" name="usuario_nome">
                         </div>
                         <div class="form-group col-sm-6">
                             <label for="inputSobrenome">Sobrenome</label>
-                            <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome">
+                            <input type="text" class="form-control" id="inputSobrenome" placeholder="Sobrenome" name="usuario_sobrenome">
                         </div>
                     </div><!-- linha nome/sobrenome -->
                     <div class="form-row">
                         <div class="form-group col-sm-12">
                             <label for="inputEmail">Email</label>
-                            <input type="text" name="email" class="form-control" id="inputEmail" placeholder="exemplo@email.com">
+                            <input type="text" name="email" class="form-control" id="inputEmail" placeholder="exemplo@email.com" name="usuario_email">
                         </div>
                     </div><!-- linha email -->
                     <div class="form-row">
                         <div class="form-group col-sm-12">
                             <label for="textarea">Mensagem:</label>
-                            <textarea class="form-control" id="textarea" rows="10"></textarea>
+                            <textarea class="form-control" id="textarea" rows="10" name="usuario_msg"></textarea>
                         </div>
                     </div>
                     <div class="form-row">
